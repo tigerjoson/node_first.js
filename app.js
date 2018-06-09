@@ -12,3 +12,8 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+/*
+	After that, run your web server using node app.js, visit http://localhost:3000, 
+	and you will see a message 'Hello World'
+	*/
+	
